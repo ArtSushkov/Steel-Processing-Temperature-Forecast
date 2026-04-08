@@ -54,9 +54,9 @@ Data is stored in an SQLite database (`ds-plus-final.db`) containing historical 
 | Model | MAE (Val) | RMSE (Val) | R² (Val) |
 |:------|:----------|:-----------|:---------|
 | Decision Tree | 7.64 | 11.45 | 0.473 |
-| LightGBM | 6.56 | 9.12 | 0.619 |
-| **CatBoostRegressor** | **6.29** | **8.69** | **0.620** |
-| PyTorch MLP (Best) | 6.20 | 8.56 | 0.706 |
+| LightGBM | 6.49 | 9.08 | 0.669 |
+| **CatBoostRegressor** | **6.22** | **8.65** | **0.700** |
+| PyTorch MLP (Best) | 6.22 | 8.56 | 0.706 |
 
 ✅ **Final Production Choice:** `CatBoostRegressor`  
 *(Selected for optimal balance of accuracy, training speed, robustness to unscaled data, and built-in interpretability)*

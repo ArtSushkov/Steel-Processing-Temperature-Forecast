@@ -69,4 +69,15 @@ Data is stored in an SQLite database (`ds-plus-final.db`) containing historical 
 2. **Optimize Heating Cycles:** Monitor `heating_duration_sum` and `processing_duration` to avoid energy overconsumption while maintaining target temperature.
 3. **Continuous Model Retraining:** Implement a monitoring pipeline to retrain the model quarterly as raw materials or equipment degrade over time.
 
-## 📁 Project Structure
+
+## 🚀 Getting Started
+```bash
+# 1. Clone repository
+git clone https://github.com/your-username/Steel-Processing-Temperature-Forecast.git
+cd Steel-Processing-Temperature-Forecast
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Launch Jupyter
+jupyter notebook notebooks/steel_temperature_forecast.ipynb
